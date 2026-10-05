@@ -619,7 +619,7 @@ class AiAssistantViewModel(
         val now = currentTime()
 
         try {
-            val apiKey = "AIzaSyDummyKeyForMessQLPUAppProductionBuild"
+            val apiKey = "GEMINI_API_KEY_MESSQ_LPU"
             val generativeModel = GenerativeModel(
                 modelName = "gemini-1.5-flash",
                 apiKey = apiKey
